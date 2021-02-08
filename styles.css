@@ -19,10 +19,16 @@
 
 body {
     background-image: url("images/bg-intro-mobile.png");
-    background-size: cover;
-    background-color: var(--Red);
+    background-size: 375px 1000px;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    /* background-color: var(--Red); */
+    background-color: hsla(0, 100%, 74%, 0.8);
     /* height: 100%; */
     font-family: "Poppins", sans-serif;
+    max-width: 400px;
+    margin: auto;
+    min-height: 100vh;
 }
 
 .wrapper {
@@ -50,6 +56,24 @@ body {
     max-width: 340px;
     margin: auto;
     margin-top: 23px;
+}
+
+.cta {
+    background-color: var(--Purple);
+    color: white;
+    margin: auto;
+    margin-top: 60px;
+    line-height: 130%;
+    font-size: 1.2rem;
+    min-height: 50px;
+    max-width: 300px;
+    padding: 2rem;
+    border-radius: 10%;
+    font-weight: 400;
+}
+
+.seven {
+    font-weight: 700;
 }
 
 footer {
