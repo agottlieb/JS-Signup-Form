@@ -20,11 +20,8 @@
 body {
     background-image: url("images/bg-intro-mobile.png");
     background-size: 375px 1000px;
-    /* background-repeat: no-repeat; */
     background-position: center;
-    /* background-color: var(--Red); */
-    background-color: hsla(0, 100%, 74%, 0.8);
-    /* height: 100%; */
+    background-color: var(--Red);
     font-family: "Poppins", sans-serif;
     max-width: 400px;
     margin: auto;
@@ -34,7 +31,6 @@ body {
 .wrapper {
     margin: auto;
     text-align: center;
-    border: 2px var(--Green) solid;
     font-size: 16px;
 }
 
@@ -63,13 +59,14 @@ body {
     color: white;
     margin: auto;
     margin-top: 60px;
+    margin-bottom: 40px;
     line-height: 130%;
-    font-size: 1.2rem;
     min-height: 50px;
-    max-width: 300px;
-    padding: 2rem;
-    border-radius: 10%;
+    max-width: 350px;
+    padding: 1rem 5rem;
+    border-radius: 10px;
     font-weight: 400;
+    box-shadow: 1px 6px rgba(44, 43, 43, 0.2);
 }
 
 .seven {
