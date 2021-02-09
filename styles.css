@@ -59,7 +59,7 @@ body {
     color: white;
     margin: auto;
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     line-height: 130%;
     min-height: 50px;
     max-width: 350px;
@@ -71,6 +71,42 @@ body {
 
 .seven {
     font-weight: 700;
+}
+
+.input-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: .5rem;
+    
+}
+
+.submit {
+    background-color: var(--Green);
+    display: block;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 50px;
+    min-width: 300px;
+    box-shadow: 1px 6px rgba(44, 43, 43, 0.2);
+}
+
+label {
+    margin-bottom: 20px;
 }
 
 footer {
