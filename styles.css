@@ -183,7 +183,23 @@ body {
     caret-color: var(--Purple);
 }
 
+.legal {
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 180%;
+    color: var(--Grayish-Blue);
+    max-width: 250px;
+    margin: auto;
+}
+
+.terms {
+    color: var(--Red);
+    font-size: .8rem;
+    font-weight: 600;
+}
+
 footer {
-    border: 2px var(--Grayish-Blue) solid;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
