@@ -2,6 +2,7 @@
 :root {
     --Skyblue: skyblue;
 }
+
 :root {
     --Red: hsl(0, 100%, 74%);
     --Green: hsl(154, 59%, 51%);
@@ -80,6 +81,7 @@ body {
     display: block;
     max-width: 350px;
     margin: auto;
+    box-shadow: 1px 6px rgba(44, 43, 43, 0.2);
 }
 
 ::placeholder {
@@ -103,6 +105,7 @@ body {
     min-height: 50px;
     min-width: 300px;
     box-shadow: 1px 6px rgba(44, 43, 43, 0.2);
+    cursor: pointer;
 }
 
 .form {
@@ -195,7 +198,7 @@ body {
 .terms {
     color: var(--Red);
     font-size: .8rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 footer {
