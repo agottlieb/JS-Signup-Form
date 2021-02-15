@@ -1,13 +1,12 @@
-//on submit, change field color to red and with special message
-//toggle css
-//input text and graphic into html
-//email use RegEX-344 JS uddemy
+const submitButton = document.querySelector('.submit');
+const firstName = document.querySelector('.fn-label');
+const form = document.querySelector('.form');
 
-const submitButton = document.getElementById("submit")
 
-// function checkInputs = 
-//     if firstname = !Textcheck ()
-//     toggle (error class)
-//     else ('')
 
-submitButton.addEventListener('click', console.log('hi there'))
+submitButton.addEventListener('click', e => {
+    if (firstName === '') {
+        firstName.ClassList.add('error')
+        document.querySelector
+    }
+});

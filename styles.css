@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')
+
 :root {
-    --Skyblue: skyblue;
+    --skyblue: skyblue;
 }
 
 :root {
@@ -91,27 +92,15 @@ body {
     
 }
 
-.submit {
-    background-color: var(--Green);
-    display: block;
-    color: white;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    min-height: 50px;
-    min-width: 300px;
-    box-shadow: 1px 6px rgba(44, 43, 43, 0.2);
-    cursor: pointer;
-}
-
 .form {
     padding: .5rem;
     width: 300px;
 }
+
+.error input{
+    border: 1px solid var(--Red);
+}
+
 
 .fn-label {
     border: none;
@@ -184,6 +173,26 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     caret-color: var(--Purple);
+}
+.submit {
+    background-color: var(--Green);
+    display: block;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 50px;
+    min-width: 300px;
+    box-shadow: 1px 6px rgba(44, 43, 43, 0.2);
+    cursor: pointer;
+}
+
+.submit:focus {
+    outline: none !important;
 }
 
 .legal {
