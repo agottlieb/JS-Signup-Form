@@ -85,6 +85,7 @@ body {
     box-shadow: 1px 6px rgba(44, 43, 43, 0.2);
 }
 
+/*represents the text inside the placeholder */
 ::placeholder {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -97,10 +98,17 @@ body {
     width: 300px;
 }
 
-.error input{
+input.error {
     border: 1px solid var(--Red);
 }
 
+small {
+ color: var(--Red);
+}
+
+.validation {
+    visibility: hidden;
+}
 
 .fn-label {
     border: none;
