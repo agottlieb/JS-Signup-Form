@@ -86,36 +86,66 @@ body {
 }
 
 /*represents the text inside the placeholder */
-::placeholder {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    padding: .5rem;
-    
-}
 
 .form {
     padding: .5rem;
     width: 300px;
 }
 
-input.error {
-    border: 1px solid var(--Red);
-}
-
-small {
- color: var(--Red);
-}
-
-.validation {
-    visibility: hidden;
-}
-
-.fn-label {
+input {
     border: none;
     padding: .5rem;
     width: 300px;
     margin-bottom: 25px;
+    border-radius: 7px;
 }
+::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: .5rem; 
+}
+
+small {
+    color: var(--Red);
+    position: relative;
+    font-size: 0.6rem;
+    font-style: italic;
+    text-align: right;
+    padding: 0.3rem;
+   }
+
+small.error::before {
+    content: "";
+    background-image: url("images/icon-error.svg");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: -30px;
+    right: 15px;
+    z-index: 1000;
+    }
+
+/*always hidden */
+.validation {
+    visibility: hidden;
+    top: -25px;
+    right: -95px;
+}
+
+.error {
+    visibility: visible;
+}
+
+input.error {
+    border: 1.5px solid var(--Red);
+}
+
+/* .fn-label {
+    border: none;
+    padding: .5rem;
+    width: 300px;
+    margin-bottom: 25px;
+} */
 
 .fn-label:focus {
     font-family: "Poppins", sans-serif;
@@ -129,12 +159,12 @@ small {
     caret-color: var(--Purple);
 }
 
-.ln-label {
+/* .ln-label {
     border: none;
     padding: .5rem;
     width: 300px;
     margin-bottom: 25px;
-}
+} */
 .ln-label:focus {
     font-family: "Poppins", sans-serif;
     outline: none !important;
@@ -146,12 +176,12 @@ small {
     padding-bottom: 20px;
     caret-color: var(--Purple);
 }
-.ea-label {
+/* .ea-label {
     border: none;
     padding: .5rem;
     width: 300px;
     margin-bottom: 25px;
-}
+} */
 
 .ea-label:focus {
     font-family: "Poppins", sans-serif;
@@ -164,12 +194,12 @@ small {
     padding-bottom: 20px;
     caret-color: var(--Purple);
 }
-.pw-label {
+/* .pw-label {
     border: none;
     padding: .5rem;
     width: 300px;
     margin-bottom: 10px;
-}
+} */
 
 .pw-label:focus {
     font-family: "Poppins", sans-serif;
