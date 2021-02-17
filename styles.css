@@ -105,6 +105,7 @@ input {
     padding: .5rem; 
 }
 
+
 small {
     color: var(--Red);
     position: relative;
@@ -139,6 +140,11 @@ small.error::before {
 input.error {
     border: 1.5px solid var(--Red);
 }
+
+/*clears the placeholder when error class is triggered*/
+input.error::placeholder {
+    color: transparent;
+  }
 
 /* .fn-label {
     border: none;
