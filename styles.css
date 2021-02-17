@@ -199,3 +199,86 @@ footer {
     font-weight: 600;
     font-size: 1.4rem;
 }
+
+@media (min-width: 720px){
+    .wrapper{
+        display: flex;
+        width: 100vh;
+    } 
+
+    .title {
+        font-size: 3rem;
+        min-width: 400px;
+        position: absolute;
+        left: 60px;
+        bottom: 300px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .paragraph {
+        position: absolute;
+        left: 60px;
+        bottom: 220px;
+        font-size: .9rem;
+        font-weight: 600;
+        min-width: 430px;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .cta {
+        max-height: 40px;
+        min-width: 450px;
+        position: absolute;
+        right: 50px;
+        top: 10px;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+
+    .seven {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+
+    .input-form {
+        position: absolute;
+        min-width: 450px;
+        max-height: 400px;
+        right: 50px;
+        top: 150px;
+    }
+    
+    input {
+        margin: auto;
+        width: 380px;
+    }
+    
+    .submit {
+        font-size: .8rem;
+    }
+
+    .legal {
+        font-size: .5rem;
+        padding: .1rem;
+        position: absolute;
+        bottom: 22px;
+        left: 105px;
+    }
+
+    .terms {
+
+        font-size: .5rem;
+    }
+
+    small.error::before {
+        top: -5px;
+        right: -60px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 5px;
+    }
+}
