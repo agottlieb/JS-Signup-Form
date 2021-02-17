@@ -28,17 +28,40 @@
       </div>
       <div class="input-form">
         <form class="form">
-            <input 
+          <input
             class="fn-label"
-            type="text" 
-            placeholder="First Name" 
-            />
-            <small class ="validation fn-label-error">First name cannot be empty</small>
+            type="text"
+            placeholder="First Name"
+            aria-label="enter first name here"
+          />
+          <small class="validation fn-label-error">First name cannot be empty</small>
 
-          <input type="text" placeholder="Last Name" class="ln-label" />
-          <input type="text" placeholder="Email Address" class="ea-label"/>
-          <input type="text" placeholder="Password" class="pw-label"/>
-          <input type="submit" class ="submit" value="Claim your free trial" />
+          <input
+            type="text"
+            placeholder="Last Name"
+            class="ln-label"
+            aria-label="enter last name here"
+          />
+          <small class="validation ln-label-error">Last name cannot be empty</small>
+          <input
+            type="text"
+            placeholder="Email Address"
+            class="ea-label"
+            aria-label="enter email address here"
+          />
+          <input
+            type="text"
+            placeholder="Password"
+            class="pw-label"
+            aria-label="enter email address here"
+          />
+          <small class="validation password-error">Password cannot be empty</small>
+          <input
+            type="submit"
+            class="submit"
+            value="Claim your free trial"
+            aria-label="submit your form here"
+          />
         </form>
         <div class="legal">
           By clicking the button, you are agreeing to our
