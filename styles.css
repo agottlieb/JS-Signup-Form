@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')
-
-:root {
-    --skyblue: skyblue;
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap') */
 
 :root {
     --Red: hsl(0, 100%, 74%);
@@ -286,3 +282,5 @@ footer {
         bottom: 5px;
     }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')
