@@ -268,13 +268,17 @@ footer {
     }
 
     .terms {
-
         font-size: .5rem;
     }
 
     small.error::before {
-        top: -5px;
-        right: -60px;
+        top: -29px;
+        right: 5px;
+    }
+
+    .validation {
+        top: -2.5px;
+        right: -173px;
     }
 
     footer {

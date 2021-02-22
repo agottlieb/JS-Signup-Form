@@ -17,15 +17,16 @@ submitButton.addEventListener('click', e => {
     if (lastName.value==='') {
         lastName.classList.add('error');
         document.querySelector('.ln-label-error').classList.add('error');
+        e.preventDefault(); 
     } else {
         lastName.classList.remove('error')
         document.querySelector('.ln-label-error').classList.remove('error');
     }
 
-
     if (!emailAddress.value.match(regexPattern)) {
         emailAddress.classList.add('error');
         document.querySelector('.ea-label-error').classList.add('error');
+        e.preventDefault();  
     } else {
         emailAddress.classList.remove('error')
         document.querySelector('.ea-label-error').classList.remove('error');
