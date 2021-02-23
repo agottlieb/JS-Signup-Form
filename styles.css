@@ -98,6 +98,10 @@ input {
     padding: .5rem; 
 }
 
+input.pw-label {
+    margin-bottom: 0px;
+}
+
 input:focus {
     font-family: "Poppins", sans-serif;
     outline: none !important;
@@ -207,9 +211,9 @@ footer {
         background-size: cover;
     }
 
-    /* form {
-        height: 500px;
-    } */
+    input {
+        padding: 1.2rem; 
+    }
 
     .title {
         font-size: 3rem;
@@ -292,13 +296,15 @@ footer {
     }
 
     .submit {
-        position: absolute;
-        bottom: 40px;
+        position: relative;
+        bottom: 20px;
     }
 
     .legal {
-        position: absolute;
-        bottom: 30px;
+        position: relative;
+        margin-bottom: 0;
+        bottom: 40px;
+        left: 5px;
 
     }
     
