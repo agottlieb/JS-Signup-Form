@@ -87,7 +87,7 @@ body {
 input {
     border: none;
     padding: .5rem;
-    height: 15px;
+    height: 40px;
     width: 300px;
     margin-bottom: 25px;
     border-radius: 7px;
@@ -98,9 +98,9 @@ input {
     padding: .5rem; 
 }
 
-input.pw-label {
+/* input.pw-label {
     margin-bottom: 0px;
-}
+} */
 
 input:focus {
     font-family: "Poppins", sans-serif;
