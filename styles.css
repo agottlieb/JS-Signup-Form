@@ -299,6 +299,7 @@ footer {
     .submit {
         position: relative;
         bottom: 20px;
+        margin-top: 30px;
     }
 
     .legal {
