@@ -310,12 +310,16 @@ footer {
 
     }
     
-    footer {
+    .attribution {
+        position: absolute;
+        bottom: 2rem;
+    }
+    /* footer {
        position: absolute; 
        padding-top: 2rem;
      bottom: 2rem; 
      
-    }
+    } */
 }
 
 /*placed at the bottom due to error message with root when placed at the top */
