@@ -248,7 +248,7 @@ footer {
         min-width: 450px;
         position: absolute;
         right: 50px;
-        top: 10px;
+        top: 20px;
         font-size: .8rem;
         font-weight: 400;
     }
@@ -261,10 +261,10 @@ footer {
     .input-form {
         position: absolute;
         min-width: 450px;
+        padding-bottom: 0;
         /* min-height: 430px; */
         right: 50px;
-        top: 10rem;
-        padding-bottom: 0;
+        margin-top: 10rem;
         margin-bottom: 5rem;
     }
     
