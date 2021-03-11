@@ -1,5 +1,8 @@
 This project is a Javascript validation form. I learned how to use server-side Javascript for validating information. I also used case/switch to check if the form updated correctly (as opposed for waiting for the user to toggle again).
 
+Challenges: laptop vs. desktop looked different, added another media query
+case/switch
+
 Known bug: on some laptop screens, the input table goes directly to the bottom. 
 
 The project is based on a Frontend Mentor project:
