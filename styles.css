@@ -259,11 +259,12 @@ footer {
     }
 
     .input-form {
-        position: absolute;
+        /* position: absolute; */
+        position: relative;
         min-width: 450px;
         padding-bottom: 0;
         /* min-height: 430px; */
-        right: 50px;
+        right: -7rem;
         margin-top: 10rem;
         margin-bottom: 5rem;
     }
