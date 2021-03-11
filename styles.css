@@ -264,7 +264,7 @@ footer {
         min-width: 450px;
         padding-bottom: 0;
         /* min-height: 430px; */
-        right: -7rem;
+        right: -6.5rem;
         margin-top: 10rem;
         margin-bottom: 5rem;
     }
@@ -324,6 +324,12 @@ footer {
         bottom: 0;
         height: 2.5rem;
         padding-top: 1rem;
+    }
+}
+
+@media(min-width:1300px) {
+    .input-form {
+        right: -9rem;
     }
 }
 
