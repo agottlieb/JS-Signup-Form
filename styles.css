@@ -259,11 +259,10 @@ footer {
     }
 
     .input-form {
-        /* position: absolute; */
-        position: relative;
+        position: absolute;
+        margin-right: 10rem;
         min-width: 450px;
         padding-bottom: 0;
-        /* min-height: 430px; */
         right: -6.5rem;
         margin-top: 10rem;
         margin-bottom: 5rem;
@@ -327,11 +326,11 @@ footer {
     }
 }
 
-@media(min-width:1300px) {
+/* @media(min-width:1300px) {
     .input-form {
         right: -9rem;
     }
-}
+} */
 
 /*placed at the bottom due to error message with root when placed at the top */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')
