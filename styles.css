@@ -318,19 +318,8 @@ footer {
         padding-bottom: 20px;
     }
 
-    footer {
-        position: absolute;
-        bottom: 0;
-        height: 2.5rem;
-        padding-top: 1rem;
-    }
 }
 
-/* @media(min-width:1300px) {
-    .input-form {
-        right: -9rem;
-    }
-} */
 
 /*placed at the bottom due to error message with root when placed at the top */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')
