@@ -4,6 +4,18 @@ const lastName = document.querySelector('.ln-label');
 const emailAddress = document.querySelector('.ea-label');
 const regexPattern = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 const password = document.querySelector('.pw-label');
+const form = document.querySelector('.form');
+
+function checkFirstName ()  {
+    if (firstName.value === '') {
+    firstName.classList.add('error'); //adds red box to firstname input area
+    document.querySelector('.fn-label-error').classList.add('error'); //add the image and text
+    e.preventDefault(); 
+} else {
+    firstName.classList.remove('error')
+    document.querySelector('.fn-label-error').classList.remove('error');
+ }
+}
 
 submitButton.addEventListener('click', e => {
     if (firstName.value === '') {
@@ -46,17 +58,17 @@ submitButton.addEventListener('click', e => {
 
 form.addEventListener('input', function (e) {
     switch (e.target.id) {
-        case 'username':
-            checkUsername();
-            break;
-        case 'email':
-            checkEmail();
-            break;
-        case 'password':
-            checkPassword();
-            break;
-        case 'confirm-password':
-            checkConfirmPassword();
-            break;
+        case 'firstname':
+            checkFirstname();
+           break;
+        // case 'email':
+        //     checkEmail();
+        //     break;
+        // case 'password':
+        //     checkPassword();
+        //     break;
+        // case 'confirm-password':
+        //     checkConfirmPassword();
+        //     break;
     }
 });
