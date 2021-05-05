@@ -1,4 +1,4 @@
-This is a Javascript validation form. I learned how to use server-side Javascript for validating information. I also used case/switch to check if the form updated correctly after user input. This is a mobile first design using HTML5, CSS and flexbox. 
+This is a Javascript validation form. I learned how to use server-side Javascript for validating information. I also added an eventlistener to the form to check if the form updated correctly after user input. This is a mobile first design using HTML5, CSS and flexbox. 
 
 Known bug: The red warning label for the password renders oddly on the Vercel site.
 
