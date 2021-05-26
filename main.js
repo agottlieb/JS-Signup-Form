@@ -51,9 +51,9 @@ function clicked () {
 
 submitButton.addEventListener('click', clicked )
 
-if (alreadyClicked === true) {
-    form.addEventListener('input', e => {
-        if (firstName.value === '') {
+
+form.addEventListener('input', e => {
+        if (firstName.value === '' && alreadyClicked==true) {
             firstName.classList.add('error'); //adds red box to firstname input area
             document.querySelector('.fn-label-error').classList.add('error'); //add the image and text
             e.preventDefault(); 
@@ -61,7 +61,7 @@ if (alreadyClicked === true) {
             firstName.classList.remove('error')
             document.querySelector('.fn-label-error').classList.remove('error');
         }
-        if (lastName.value==='') {
+        if (lastName.value==='' && alreadyClicked==true) {
             lastName.classList.add('error');
             document.querySelector('.ln-label-error').classList.add('error');
             e.preventDefault(); 
@@ -69,17 +69,15 @@ if (alreadyClicked === true) {
             lastName.classList.remove('error')
             document.querySelector('.ln-label-error').classList.remove('error');
         }
-    
-        if (!emailAddress.value.match(regexPattern)) {
+        if (!emailAddress.value.match(regexPattern) && alreadyClicked==true) {
             emailAddress.classList.add('error');
             document.querySelector('.ea-label-error').classList.add('error');
             e.preventDefault();  
         } else {
             emailAddress.classList.remove('error')
             document.querySelector('.ea-label-error').classList.remove('error');
-        }
-    
-        if (password.value === '') {
+        }   
+        if (password.value === '' && alreadyClicked==true) {
             password.classList.add('error'); 
             document.querySelector('.password-error').classList.add('error'); 
             e.preventDefault(); 
@@ -88,4 +86,3 @@ if (alreadyClicked === true) {
             document.querySelector('.password-error').classList.remove('error');
         }
     });
-}
