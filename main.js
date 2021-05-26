@@ -5,7 +5,7 @@ const lastName = document.querySelector('.ln-label');
 const emailAddress = document.querySelector('.ea-label');
 const regexPattern = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 const password = document.querySelector('.pw-label');
-const alreadyClicked = false;
+let alreadyClicked = false;
 
 //submit button checks for errors
 submitButton.addEventListener('click', e => {
@@ -34,7 +34,6 @@ submitButton.addEventListener('click', e => {
         emailAddress.classList.remove('error')
         document.querySelector('.ea-label-error').classList.remove('error');
     }
-
     if (password.value === '') {
         password.classList.add('error'); 
         document.querySelector('.password-error').classList.add('error'); 
@@ -47,7 +46,7 @@ submitButton.addEventListener('click', e => {
 
 //
 function clicked () {
-    alreadyClicked === true
+    alreadyClicked = !alreadyClicked
 }
 
 submitButton.addEventListener('click', clicked )
