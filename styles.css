@@ -202,7 +202,7 @@ footer {
     font-size: 1rem;
 }
 
-@media (min-width: 720px){
+@media (min-width: 720px) {
     .wrapper{
         display: flex;
         width: 100vh;
@@ -222,6 +222,11 @@ footer {
         padding-bottom: 2rem;
     }
 
+    .exp {
+        position: absolute;
+        bottom: 5rem;
+        left: 4rem;
+    }
     .title {
         font-size: 3rem;
         min-width: 400px;
@@ -243,6 +248,11 @@ footer {
         line-height: 1.5;
     }
 
+    .right-side {
+        position: absolute;
+        top: 3rem;
+        right: 5rem;
+    }
     .cta {
         max-height: 40px;
         min-width: 450px;
@@ -319,6 +329,7 @@ footer {
     }
 
 }
+
 
 
 /*placed at the bottom due to error message with root when placed at the top */
